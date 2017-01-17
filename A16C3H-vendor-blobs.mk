@@ -68,9 +68,11 @@ PRODUCT_COPY_FILES += \
     vendor/haier/A16C3H/proprietary/system/lib/hw/sensors.msm8909.so:system/lib/hw/sensors.msm8909.so \
     vendor/haier/A16C3H/proprietary/system/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/haier/A16C3H/proprietary/system/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/haier/A16C3H/proprietary/system/bin/ssr_setup:system/bin/ssr_setup \
     vendor/haier/A16C3H/proprietary/system/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/haier/A16C3H/proprietary/system/bin/dun-server:system/bin/dun-server \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/haier/A16C3H/proprietary/system/bin/sapd:system/bin/sapd \
     vendor/haier/A16C3H/proprietary/system/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/haier/A16C3H/proprietary/system/bin/port-bridge:system/bin/port-bridge \
@@ -80,8 +82,30 @@ PRODUCT_COPY_FILES += \
     vendor/haier/A16C3H/proprietary/system/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/haier/A16C3H/proprietary/system/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/haier/A16C3H/proprietary/system/bin/wfdservice:system/bin/wfdservice \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/haier/A16C3H/proprietary/system/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libsregex.so:system/vendor/lib/libsregex.so \
     vendor/haier/A16C3H/proprietary/system/bin/mmi:system/bin/mmi \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/haier/A16C3H/proprietary/system/bin/pm-service:system/bin/pm-service \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
@@ -92,9 +116,14 @@ PRODUCT_COPY_FILES += \
     vendor/haier/A16C3H/proprietary/system/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/haier/A16C3H/proprietary/system/bin/ssr_diag:system/bin/ssr_diag \
     vendor/haier/A16C3H/proprietary/system/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/haier/A16C3H/proprietary/system/bin/vm_bms:system/bin/vm_bms \
     vendor/haier/A16C3H/proprietary/system/bin/cnd:system/bin/cnd \
     vendor/haier/A16C3H/proprietary/system/bin/garden_app:system/bin/garden_app \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
     vendor/haier/A16C3H/proprietary/system/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/haier/A16C3H/proprietary/system/bin/lowi-server:system/bin/lowi-server \
     vendor/haier/A16C3H/proprietary/system/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
