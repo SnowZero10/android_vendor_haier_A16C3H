@@ -104,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/haier/A16C3H/proprietary/system/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libsregex.so:system/vendor/lib/libsregex.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/haier/A16C3H/proprietary/system/bin/mmi:system/bin/mmi \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/haier/A16C3H/proprietary/system/bin/pm-service:system/bin/pm-service \
