@@ -208,3 +208,27 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
+ifeq ($(strip $(BOARD_USES_SRS_TRUEMEDIA)),true)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsrsprocessing
+LOCAL_MODULE_OWNER := haier
+LOCAL_SRC_FILES := proprietary/system/vendor/lib/libsrsprocessing.so
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+endif
+
+ifeq ($(strip $(AUDIO_FEATURE_ENABLED_PM_SUPPORT)),true)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libperipheral_client
+LOCAL_MODULE_OWNER := haier
+LOCAL_SRC_FILES := proprietary/system/vendor/lib/libperipheral_client.so
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+endif
+

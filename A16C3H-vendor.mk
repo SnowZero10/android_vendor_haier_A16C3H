@@ -38,6 +38,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
-    libtime_genoff
+    libtime_genoff \
+    libsrsprocessing \
+    libperipheral_client
 
 $(call inherit-product, vendor/haier/A16C3H/A16C3H-vendor-blobs.mk)

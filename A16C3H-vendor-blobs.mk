@@ -637,7 +637,6 @@ PRODUCT_COPY_FILES += \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/haier/A16C3H/proprietary/system/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/haier/A16C3H/proprietary/system/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
