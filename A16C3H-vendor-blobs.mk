@@ -866,7 +866,13 @@ PRODUCT_COPY_FILES += \
     vendor/haier/A16C3H/proprietary/system/vendor/etc/RIDL/GoldenLogmask.dmc:system/vendor/etc/RIDL/GoldenLogmask.dmc \
     vendor/haier/A16C3H/proprietary/system/vendor/etc/RIDL/OTA-Logs.dmc:system/vendor/etc/RIDL/OTA-Logs.dmc \
     vendor/haier/A16C3H/proprietary/system/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
-    vendor/haier/A16C3H/proprietary/system/vendor/etc/RIDL/RIDL.db:system/vendor/etc/RIDL/RIDL.db
+    vendor/haier/A16C3H/proprietary/system/vendor/etc/RIDL/RIDL.db:system/vendor/etc/RIDL/RIDL.db \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+    vendor/haier/A16C3H/proprietary/system/vendor/lib/drm/libomadrmengine.so:system/vendor/lib/drm/libomadrmengine.so
 endif
 
 PRODUCT_COPY_FILES += \
